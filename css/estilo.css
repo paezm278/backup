@@ -1,0 +1,108 @@
+body {
+	background-image: url(../Imagen/fondo.jpg);
+	background-size: cover;
+	font-size: auto;
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.514);
+	background-size: cover;
+    background-attachment: fixed;
+	margin: auto;
+	text-align: center;
+ }
+
+nav{
+	max-width: auto;
+	margin: auto;
+	background-color: rgba(250, 248, 248, 0.096);
+	font-size: auto px;
+	margin-top:20 px;
+}
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+.menu-horizontal > li:hover{
+	background-color: rgba(255, 255, 255, 0.336);
+}
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: auto;
+	background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	background-color: black;
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
+
+#html{
+	margin: 0;
+	padding: 20px;
+	max-width: 900px;
+	color: black;
+	background: rgb(255, 255, 255);
+
+}
+#hh{
+	margin: 0;
+	padding: 100px;
+	max-width: 9000px;
+	color: black;
+	background: rgb(255, 255, 255);
+}
+
+
+.encabezado {
+		background-color: rgb(253, 0, 0);
+		padding: auto;
+	}
+	.formulario__register h2 {
+		width: auto;
+		text-align: center;
+	}
+	.formulario__register input {
+		width: calc(50% - 10px);
+		padding: auto;
+		margin-bottom: 10px;
+		border: 1px solid #ffffff;
+		border-radius: 3px;
+		box-sizing: border-box;
+	}
+	.formulario__register .button-container {
+		width: 100%;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.formulario__register button {
+		/*todo lo que va dentro del boton*/
+		width: auto;
+		padding: 20px 18px;
+		background-color: #007bff;
+		color: #fffcfc;
+		border: none;
+		border-radius: 15px;
+		cursor: pointer;
+		font-size: auto;
+		transition: background-color 0.05s ease;
+	}
+	.formulario__register button:hover {
+		background-color: #0057b39c;
+	}
+	
